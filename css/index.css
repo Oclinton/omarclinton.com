@@ -1,0 +1,252 @@
+body{margin:0px; padding:0px;}
+
+@media only screen and (max-width: 400px) {
+
+	body{margin:0px; padding:0px;}
+
+	#headerDiv{
+	width: auto;
+	height: 50px;
+	background: blue;
+	/*background: linear-gradient( #3973ac, #264d73);*/
+	margin: auto;
+	display: block;
+	margin: bottom 2px solid white;
+	position: sticky;}
+}
+
+	#headerDiv{
+	width: auto;
+	height: 145px;
+	background: linear-gradient( #3973ac, #264d73);
+	margin: auto;
+	display: block;
+	margin: bottom 5px solid white;
+	position: sticky;}
+
+		#topBan{
+		width: auto;
+		height: 50px;
+		background: linear-gradient(#000000, #1a1a1a);
+		margin: auto;}
+
+		#thinLine{
+		width: auto;
+		height: 3px;
+		background-color: white;
+		margin: auto;}
+
+		#headCont{
+		width: 1200px;
+		height: 90px;
+		margin: auto;
+		display: block;
+		border-bottom:}
+
+			#logoDiv{
+			width: 300px;
+			height: 40px;
+			float: left;
+			text-shadow: 1px 1px 3px #33353a;
+			margin-top: 25px;
+			font-size: 32pt;
+			color: white;}
+
+			#navContent{
+			width: 600px;
+			height: 50px;
+			float: right;
+			display: block;
+			margin-right: 90px;}
+
+			#mobile-menu{
+				display: none;
+				width: 10px;
+				height: 20px;
+			}
+
+
+@media only screen and (max-width: 400px) {
+
+		#logoDiv{
+			margin-left: 10px;
+		}
+
+		#navContent{
+			display: none;
+			text-align: center;
+			width: 100%;
+		}
+
+		ul{
+			display: none;
+		}
+
+		li{
+			float: none;
+		}
+
+		#mobile-menu{
+			display: block;
+			float: right;
+			
+				width: 40px;
+				height: 30px;
+				margin-top: 10px;
+				margin-right: 40px;
+		}
+
+
+		#windowMain{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+		height: 350px;
+		width: 300px;
+		background-color: rgba(0,0,0,0.2);
+		border: 1px solid #bfbfbf;
+		display: flex;
+		direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+}
+
+		ul{
+		list-style-type: none;
+		display: block;
+		float: right;}
+
+		li{
+		float: left;}
+
+		li a{
+		text-decoration:none;
+		font-family:sans-serif;
+		font-size: 10pt;
+		color: white;
+		position: relative;
+		top: 4px;
+		padding: 15px;
+		transition-duration: 100ms;
+		transition-timing-function: ease;}
+
+		a:hover{
+		border-bottom: 7px solid #ffffff;
+		border-bottom-width: 100ms;
+		transition: border-width: 100ms;}
+
+		#no-hover a{
+		text-decoration: none;
+		}
+
+		#extendNav{
+		width: auto;
+		height: 40px;
+		background: linear-gradient( #1a1a1a, #000000);
+		opacity: ;
+		border-top: 1px solid white;
+		display:block;}
+
+		#fullHeader{
+		position: sticky;
+		top: 0;
+		margin-bottom: 1px solid white;}
+
+	#mainDiv{
+	width: 100%;
+	height: auto;
+	background-image:  url("px_by_Gre3g.png");
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+		#windowMain{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 350px;
+		width: 1200px;
+		background-color: rgba(0,0,0,0.2);
+		border: 1px solid #bfbfbf;
+		display: flex;
+		direction: row;
+		justify-content: space-around;
+		align-items: center;}
+
+			#portfolio{
+			height: 250px;
+			width: 200px;
+			background-color: rgba(0,0,0,0.2);
+			border: 1px solid white;
+			transition: all ease .5s;
+			box-shadow:  0 0 0 0 rgba(0,0,0,0.2) inset;}
+
+			#portfolio:hover{
+			box-shadow: 250px 250px 0 0 rgba(208, 211, 212, 0.5) inset;}
+
+			#resume{
+			height: 250px;
+			width: 200px;
+			background-color: rgba(0,0,0,0.2);
+			border: 1px solid white;
+			transition: all ease .5s;
+			box-shadow:  0 0 0 0 rgba(0,0,0,0.2) inset;}
+
+			#resume:hover{
+			box-shadow: 250px 250px 0 0 rgba(208, 211, 212, 0.5) inset;}
+
+			#aboutMe{
+			height: 250px;
+			width: 200px;
+			background-color: rgba(0,0,0,0.2);
+			border: 1px solid white;
+			transition: all ease .5s;
+			box-shadow:  0 0 0 0 rgba(0,0,0,0.2) inset;}
+
+			#aboutMe:hover{
+			box-shadow: 250px 250px 0 0 rgba(208, 211, 212, 0.5) inset;}
+
+			#contact{
+			height: 250px;
+			width: 200px;
+			background-color: rgba(0,0,0,0.2);
+			border: 1px solid white;
+			transition: all ease .5s;
+			box-shadow:  0 0 0 0 rgba(0,0,0,0.2) inset;}
+
+			#contact:hover{
+			box-shadow: 250px 250px 0 0 rgba(208, 211, 212, 0.5) inset;}
+
+#footerDiv{
+	 width: auto;
+	 height: 100px;
+	 background-color: black;
+	 margin: auto;}
+
+#footer2{
+   	width: auto;
+   	height: auto;
+   	background-color: #18191b;}
+
+#login{
+			width: 300px;
+			height: 225px;
+			background-color: ;
+			border: 1px solid white;
+			margin-top: 15px;
+			margin-left: 40px;
+			display: flex;
+			justify-content: space-around;
+			align-content: center;}
+
+				.login{
+				width:250px;
+				height: 30px;
+				margin-top: 15px;
+				margin-left: 25px;}
+
+				#login a{ margin-left: 0px;
+				}

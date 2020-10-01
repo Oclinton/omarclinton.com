@@ -1,0 +1,122 @@
+	#headerDiv{
+	width: auto; 
+	height: 125px; 
+	background-color:  #cc0000;
+	margin: auto; 
+	display: block;}
+
+	#topBan{
+	width: auto;
+	height: 15px; 
+	background-color: black; 
+	margin: auto;}
+
+	#thinLine{
+	width: auto; 
+	height: 2px; 
+	background-color: white; 
+	margin: auto;} 
+
+	#headCont{ 
+		width: 1200px;  
+		height: 100px; 
+		margin: auto; 
+		display: block;
+		background-color: }
+
+		#logoDiv{
+		width: 200px; 
+		height: 50px; 
+		float: left;}
+
+			#logoDiv{
+			font-size: 28pt;
+			color: white;}
+
+		#navContent{
+		width: 600px; height: 50px;  
+		float: right; display: block;}
+
+		ul{
+		list-style-type: none; 
+		display: block; 
+		float: right;}
+
+		li{
+		float: left;}
+
+		li a{
+		text-decoration:none; 
+		font-family:sans-serif; 
+		font-size: 10pt; 
+		color: white; 
+		position: relative; 
+		top: 4px; 
+		padding: 15px; 
+		color: white; 
+		transition-duration: 100ms;  
+		transition-timing-function: ease;}
+		
+		a:hover{
+		border-top: 7px solid #ffffff; 
+		border-bottom: 6px solid #ffffff; 
+		border-bottom-width: 100ms;
+		transition: border-width: 100ms;}
+
+		#extendNav{
+		width: auto;
+		height: 60px;
+		background: linear-gradient( #1a1a1a, #000000);
+		border-top: 1px solid white;
+		display:block;}
+
+			#memNavDiv{
+			width: 500px;
+			height: auto;
+			float: left;
+			display: block;}
+
+			#memNavItem{
+			font-family: sans-serif;
+			font-size: 18pt;
+			color: white;
+			float: left;}
+
+	#mainDiv{ 
+	width: 100%;
+	height: auto; 
+	background-color: #33353a;
+	border-top: 1px solid black;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 3px solid black;}
+
+		#memVidMain{
+		width: 1200px;
+		height: 600px;
+		background-color: white;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 1px solid black;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;}
+
+		#videoWindow{
+		margin-left: 100px;
+		border: 2px solid white;}
+
+
+#footerDiv{
+	 width: auto;
+	 height: 100px; 
+	 background-color: black; 
+	 margin: auto;}
+
+#footer2{
+   	width: auto;
+   	height: 200px;
+   	background-color:  #18191b;}

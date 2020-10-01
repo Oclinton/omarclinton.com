@@ -1,0 +1,123 @@
+body{ margin: 0px; padding: 0px;}
+
+		#headerDiv{
+	width: auto;
+	height: 145px;
+	background: linear-gradient( #3973ac, #264d73);
+	margin: auto;
+	display: block;
+	margin: bottom 5px solid white;
+	position: sticky;}
+
+		#topBan{
+		width: auto;
+		height: 50px;
+		background: linear-gradient(#000000, #1a1a1a);
+		margin: auto;}
+
+		#thinLine{
+		width: auto;
+		height: 3px;
+		background-color: white;
+		margin: auto;}
+
+		#headCont{
+		width: 1200px;
+		height: 90px;
+		margin: auto;
+		display: block;}
+
+			#logoDiv{
+			width: 300px;
+			height: 40px;
+			float: left;
+			text-shadow: 1px 1px 3px #33353a;
+			margin-top: 25px;
+			font-size: 32pt;
+			color: white;}
+
+			#navContent{
+			width: 600px;
+			height: 50px;
+			float: right;
+			display: block;
+			margin-right: 90px;}
+
+		ul{
+		list-style-type: none;
+		display: block;
+		float: right;}
+
+		li{
+		float: left;}
+
+		li a{
+		text-decoration:none;
+		font-family:sans-serif;
+		font-size: 10pt;
+		color: white;
+		position: relative;
+		top: 4px;
+		padding: 15px;
+		color: white;
+		transition-duration: 100ms;
+		transition-timing-function: ease;}
+
+		a:hover{
+		border-bottom: 6px solid #ffffff;
+		border-bottom-width: 100ms;
+		transition: border-width: 100ms;}
+
+		#extendNav{
+		width: auto;
+		height: 40px;
+		background: linear-gradient( #1a1a1a, #000000);
+		border-top: 1px solid white;
+		display:block;}
+
+		#fullHeader{
+		position: sticky;
+		top: 0;}
+
+		#mainDiv{
+		width: 100%;
+		height: auto;
+		background-image:  url("px_by_Gre3g.png");
+		border-top: 1px solid black;
+		margin-top: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 3px solid black;}
+
+
+			#sampleHeader{
+				width: 100%;
+				height: 50px;
+				background: black;}
+
+			#memVidMain{
+			height: auto;
+			width: 1200px;
+			background-color: rgba(0,0,0,0.2);
+			border: 1px solid #bfbfbf;
+			margin-top: 10px;
+			margin-bottom: 10px;}
+
+			#resume{
+				margin-top: 25px;
+				margin-left: 50px;
+				font-family: sans-serif;
+				color: white;
+			}
+
+#footerDiv{
+	 width: auto;
+	 height: 100px;
+	 background-color: black;
+	 margin: auto;}
+
+#footer2{
+   	width: auto;
+   	height: 200px;
+   	background-color:  #18191b;}
